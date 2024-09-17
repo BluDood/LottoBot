@@ -1,0 +1,8 @@
+*
+
+!src/
+!audio/
+!.dockerignore
+!Dockerfile
+!package.json
+!tsconfig.json

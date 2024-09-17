@@ -1,0 +1,32 @@
+{
+  "name": "lottobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "concurrently -k -i npm:dev:node npm:dev:ts",
+    "dev:ts": "tsc --watch",
+    "dev:node": "nodemon --delay 500ms -e js . -- --dev",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "BluDood",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@types/node-cron": "^3.0.11",
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.4",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.6.2"
+  }
+}

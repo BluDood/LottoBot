@@ -1,0 +1,4 @@
+services:
+  lottobot:
+    build: .
+    env_file: .env
