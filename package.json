@@ -13,16 +13,16 @@
   "author": "BluDood",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/voice": "^0.17.0",
-    "discord.js": "^14.16.2",
-    "dotenv": "^16.4.5",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
     "ffmpeg-static": "^5.2.0",
     "libsodium-wrappers": "^0.7.15"
   },
   "devDependencies": {
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.14.1",
     "@types/node-cron": "^3.0.11",
     "tsc-watch": "^6.2.1",
-    "typescript": "^5.6.2"
+    "typescript": "^5.8.3"
   }
 }
